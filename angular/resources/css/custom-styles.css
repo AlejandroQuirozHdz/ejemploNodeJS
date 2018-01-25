@@ -1,0 +1,87 @@
+body{
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+/*Diferentes espacios offset entre elementos*/
+.voffset1 { margin-top: 5px; } 
+.voffset2 { margin-top: 10px; } 
+.voffset3 { margin-top: 20px; } 
+.voffset4 { margin-top: 30px; } 
+.voffset5 { margin-top: 40px; } 
+.voffset6 { margin-top: 60px; } 
+.voffset7 { margin-top: 80px; } 
+.voffset8 { margin-top: 100px; } 
+.voffset9 { margin-top: 120px; }
+
+/*Cajas de texto con iconos dentro Inner-Addons*/
+.inner-addon { position: relative;}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+/*Boton personalizado para seleccionar archivos del pc*/
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+
+/*Caja de texto personalizada de solo lectura*/   
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+
+/* Contenedor del elemento de arrastrar y soltar */
+.upload-drop-zone {
+  height: 200px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+/* Vista del elemento arrastrar y soltar*/
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center
+}
+
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+.messages {
+      color: #FA787E;
+    }
+    form.ng-submitted input.ng-invalid{
+      border-color: #FA787E;
+    }
+    
+    
+    
+    
